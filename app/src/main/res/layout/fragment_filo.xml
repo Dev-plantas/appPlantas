@@ -25,20 +25,22 @@
 
 
     <Button
-        app:layout_goneMarginTop="24dp"
-        style="@style/TEXTCOLOR"
         android:id="@+id/btn_home"
+        style="@style/TEXTCOLOR"
         android:layout_width="400dp"
         android:layout_height="140dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
         android:drawableLeft="@drawable/img_btn_home_foreground"
         android:text="Tela Inicial"
+        android:textSize="15dp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="16dp"
-        android:textSize="15dp"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginTop="24dp"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

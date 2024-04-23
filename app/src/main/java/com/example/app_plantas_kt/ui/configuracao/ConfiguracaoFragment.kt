@@ -22,9 +22,12 @@ class ConfiguracaoFragment : Fragment() {
     ): View {
         binding = FragmentConfiguracaoBinding.inflate(inflater, container, false)
 
+        //checagem se o Modo escuro do sistema está ativo
         binding.btnDarkMode.apply {
             isChecked = resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_MASK == Configuration.UI_MODE_NIGHT_YES
         }
+
+        //Swith de ativar e desativar o modo escuro
         binding.btnDarkMode.setOnCheckedChangeListener { _, isChecked ->
 
             if (isChecked) {

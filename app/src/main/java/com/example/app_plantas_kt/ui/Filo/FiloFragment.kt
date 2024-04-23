@@ -15,7 +15,6 @@ import com.example.app_plantas_kt.ui.home.HomeFragment
 class FiloFragment : Fragment() {
 
     private lateinit var binding: FragmentFiloBinding
-    lateinit var btnHomeNavigate: Button
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -26,11 +25,9 @@ class FiloFragment : Fragment() {
 
 
         //Navegar para a tela Home
-
         binding.btnHome.setOnClickListener {
             findNavController().navigate(R.id.nav_home)
         }
-
 
 
         return binding.root
