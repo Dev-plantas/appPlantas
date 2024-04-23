@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tons de verde oara o app-->
+    <color name="green_plant">#3A6604</color>
+    <color name="green_plant_lite">#8D3A6604</color>
+
+    <!-- Tema Claro -->
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Tema Escuro-->
+    <color name="black">#FF000000</color>
+    <color name="gray_dark">#2e2e2e</color>
+
+
+
+</resources>
