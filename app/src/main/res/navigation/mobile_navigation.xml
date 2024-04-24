@@ -5,20 +5,22 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/nav_home">
 
+    <!--FRAGMENTOS DA TELA INICIAL -->
+    <!--Fragmaneto da Tela HOME -->
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.app_plantas_kt.ui.home.HomeFragment"
         android:label="Página Inicial"
         tools:layout="@layout/fragment_home" />
 
-
+    <!--Fragmento da Tela FILO -->
     <fragment
         android:id="@+id/nav_filo"
         android:name="com.example.app_plantas_kt.ui.Filo.FiloFragment"
         android:label="Filo"
         tools:layout="@layout/fragment_filo" />
 
-
+    <!--Fragmento da Tela de CONFIGURAÇÃO -->
     <fragment
         android:id="@+id/navSettings"
         android:name="com.example.app_plantas_kt.ui.configuracao.ConfiguracaoFragment"
