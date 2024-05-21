@@ -1,4 +1,4 @@
-package com.example.app_plantas_kt.ui.configuracao
+package com.example.app_plantas_kt.ui.settings
 
 import android.content.res.Configuration
 import android.os.Bundle
@@ -7,12 +7,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatDelegate
-import com.example.app_plantas_kt.R
-import com.example.app_plantas_kt.databinding.FragmentConfiguracaoBinding
-import com.example.app_plantas_kt.databinding.FragmentFiloBinding
+import com.example.app_plantas_kt.databinding.FragmentSettingsBinding
 
-class ConfiguracaoFragment : Fragment() {
-    private lateinit var binding: FragmentConfiguracaoBinding
+class SettingsFragment : Fragment() {
+    private lateinit var binding: FragmentSettingsBinding
 
 
     override fun onCreateView(
@@ -20,7 +18,7 @@ class ConfiguracaoFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentConfiguracaoBinding.inflate(inflater, container, false)
+        binding = FragmentSettingsBinding.inflate(inflater, container, false)
 
         //checagem se o Modo escuro do sistema está ativo
         binding.btnDarkMode.apply {
